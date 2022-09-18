@@ -24,7 +24,7 @@ function Home() {
   return (
     <div>
      
-      <Banner img={bannerImg} title={"Chez vous, partout et ailleurs"} />
+      <Banner img={bannerImg} title={"Chez vous, partout et ailleurs!"} />
       <section className="home__houses">
         <ul className="home__houses__list">
           {logements.map((logement) => (
