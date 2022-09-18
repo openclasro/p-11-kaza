@@ -1,0 +1,15 @@
+.tag {
+    background: #FF6060;
+    border-radius: 0.8em;
+    color: white;
+    font-size: 14px;
+    margin-top: 1em;
+    margin-right: 0.7em;
+    padding: 0.4em 3em;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .tag {
+        font-size: 10px;
+    }
+}

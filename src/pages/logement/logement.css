@@ -1,0 +1,83 @@
+.housing {
+    margin: auto;
+}
+.housing__content {
+    color: #FF6060;
+    margin: auto;
+    width: 85vw;
+}
+.housing__content__heading {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto 1em auto;
+}
+.housing__content__heading .housing-details__subtitle {
+    margin-top: 0.5em;
+}
+.housing__content__heading .housing-details__tags {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-top: 100px;
+}
+.housing__content__heading .housing-informations__host {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width: 768px) {
+    .housing__content__heading .housing-informations__host {
+        order: 2;
+    }
+}
+.housing__content__heading .housing-informations__host img {
+    border-radius: 5em;
+    margin-left: 0.5em;
+    order: 2;
+    width: 64px;
+}
+.housing__content__heading .housing-informations__host h5 {
+    text-align: right;
+    width: 90px;
+}
+.housing__content__description {
+    display: grid;
+    font-size: 1.2em;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+    justify-content: space-between;
+    margin: 1em auto;
+}
+@media screen and (max-width: 768px) {
+    .housing__content {
+        width: 90vw;
+    }
+    .housing__content__heading {
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 1em auto 1em auto;
+    }
+    .housing__content__heading .housing-informations {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 1em auto 0 auto;
+        width: 100%;
+    }
+    .housing__content__heading .housing-informations__host {
+        order: 2;
+    }
+    .housing__content__heading .housing-informations__host img {
+        width: 32px;
+    }
+    .housing__content__heading .housing-informations__stars {
+        order: 1;
+    }
+    .housing__content__description {
+        font-size: 12px;
+        grid-gap: 1.5em;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

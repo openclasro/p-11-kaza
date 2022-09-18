@@ -1,0 +1,44 @@
+.banner {
+    border-radius: 1.5em;
+    display: flex;
+    height: 220px;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 85vw;
+    
+
+
+
+}
+.banner__img {
+    filter: brightness(0.6);
+    width: 100%;
+    object-fit: cover;
+}
+.banner__title {
+    color: white;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media screen and (max-width: 1200px) {
+    .banner__title {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .banner {
+        border-radius: 1em;
+        height: 110px;
+        justify-content: flex-start;
+        width: 90vw;
+    }
+    .banner__title {
+        width: 220px;
+        font-size: 24px;
+        margin-left: 1em;
+    }
+}

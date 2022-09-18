@@ -1,0 +1,35 @@
+.error404 {
+    color: #FF6060;
+    text-align: center;
+    margin: 10em 2em;
+}
+.error404 h2 {
+    margin-top: -10%;
+    font-size: 110px;
+    font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+    .error404 h2 {
+        font-size: 96px;
+    }
+}
+.error404 p {
+    font-size: 36px;
+    font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+    .error404 p {
+        font-size: 18px;
+    }
+}
+.error404 a {
+    display: block;
+    font-weight: 500;
+    text-decoration: underline;
+    margin: 10em 2em;
+}
+@media screen and (max-width: 768px) {
+    .error404 a {
+        font-size: 14px;
+    }
+}
