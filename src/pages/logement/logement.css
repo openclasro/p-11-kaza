@@ -12,6 +12,10 @@
     justify-content: space-between;
     margin: 2em auto 1em auto;
 }
+.housing__content__heading .housing-details h2{
+    font-weight: 500;
+    font-size: 24px;
+}
 .housing__content__heading .housing-details__subtitle {
     margin-top: 0.5em;
 }
@@ -22,14 +26,30 @@
     padding-left: 0px;
     margin-top: 100px;
 }
+.housing-informations{
+    display: block;
+}
 .housing__content__heading .housing-informations__host {
     align-items: center;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 100px;
 }
 @media screen and (max-width: 768px) {
+    .housing__content__heading .housing-details h2{
+        font-size: 18px;
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+    }
+    .housing__content__heading .housing-details__tags{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
     .housing__content__heading .housing-informations__host {
         order: 2;
+        margin-bottom: 0px;
+        height: 55px;
+    
     }
 }
 .housing__content__heading .housing-informations__host img {
@@ -41,6 +61,9 @@
 .housing__content__heading .housing-informations__host h5 {
     text-align: right;
     width: 90px;
+    font-weight: 500;
+    font-size: 17px;
+    margin-right: 5px;
 }
 .housing__content__description {
     display: grid;
@@ -57,13 +80,13 @@
     .housing__content__heading {
         align-items: flex-start;
         flex-direction: column;
-        margin: 1em auto 1em auto;
+        margin: 1em auto 1em auto; 
     }
     .housing__content__heading .housing-informations {
         align-items: center;
         display: flex;
         justify-content: space-between;
-        margin: 1em auto 0 auto;
+        /* margin: 1em auto 0 auto; */
         width: 100%;
     }
     .housing__content__heading .housing-informations__host {

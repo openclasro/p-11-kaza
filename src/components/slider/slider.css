@@ -1,5 +1,5 @@
 .slider {
-    background: #FF6060;
+    /* background: #FF6060; */
     border-radius: 1em;
     margin: auto;
     overflow: hidden;
@@ -22,9 +22,11 @@
     transform: translateY(-50%);
 }
 .slider__arrow {
+    border: none;
     cursor: pointer;
     position: absolute;
     top: 50%;
+    background: content-box;
 }
 .slider__arrow--left {
     left: 1em;

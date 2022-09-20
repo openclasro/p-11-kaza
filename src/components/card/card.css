@@ -3,6 +3,8 @@
     overflow: hidden;
     display: block;
     position: relative;
+    /* width: 295px; */
+    height: 340px;
 }
 .card::after {
     content: "";
@@ -21,10 +23,23 @@
     position: absolute;
     width: 200px;
     z-index: 1;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
 }
 .card img {
     object-fit: cover;
     vertical-align: bottom;
-    height: 340px;
+    height: 100%;
     width: 100%;
+}
+@media screen and (max-width: 768px){
+    .card {
+        border-radius: 1em;
+        overflow: hidden;
+        display: block;
+        position: relative;
+        /* width: 295px; */
+        height: 200px;
+    }
 }

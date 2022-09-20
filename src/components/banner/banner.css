@@ -6,7 +6,7 @@
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    width: 85vw;
+    width: 87vw;
     
 
 
@@ -18,11 +18,12 @@
     object-fit: cover;
 }
 .banner__title {
+    font-weight: 500;
     color: white;
     font-size: 48px;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-125%);
 }
 @media screen and (max-width: 1200px) {
     .banner__title {
@@ -39,6 +40,7 @@
     .banner__title {
         width: 220px;
         font-size: 24px;
-        margin-left: 1em;
+        margin-left: 20px;
+        margin-top: 40px;
     }
 }

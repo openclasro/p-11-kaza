@@ -20,14 +20,14 @@
 
 .dropdown-title{
     font-weight: 500;
-    font-size: 24px; 
+    font-size: 18px; 
     margin-left: 20px;
 }
 
 .dropdown-body{
     font-weight: 400;
-    font-size: 24px;
-    /* width:100%; */
+    font-size: 18px;
+     /* width:100%;  */
     background: #F7F7F7;
     border-radius: 5px;
     padding: 30px 10px;
@@ -38,9 +38,7 @@
     right: 20px;
     transition: all .2s ease-in-out;
 }
-/* .dropdown-icon.true{
-    transform : rotate(180deg)
-} */
+
 
 
 
@@ -120,6 +118,8 @@
 
 
 .dropdown-body ul{
-
+    margin: 0px;
     list-style-type: none;
+    padding-inline-start:0px;
+    
 }
