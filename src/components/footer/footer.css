@@ -9,10 +9,10 @@
     font-size: 18px;
     left: 0;
     padding: 1em;
-    /* position: fixed; */
+    position: absolute;
     
     right: 0;
-    bottom: 0;
+
 }
 .footer p{
     font-weight: 500;
@@ -31,11 +31,9 @@
         font-size: 24px;
         left: 0;
         height: 150px;
-        /* padding: 1em; 
-         position: fixed;  */
+         padding: 1em;  
+         right: 0;
         
-        right: 0;
-        bottom: 0;
     }
     .footer p { 
         /* margin-top: -25px; */

@@ -8,13 +8,14 @@ const DropDown = ({title,content}) => {
   
   return (
     <div className="dropdown"  >
-      <div className="dropdown-header" onClick={e => setopenDropDown(!openDropDown)}>
+      <div className="dropdown-header" onClick={() => setopenDropDown(!openDropDown)}>
         <div className="dropdown-title">{title}</div>
         <div className="dropdown-icon"> {openDropDown ?  (<FaChevronUp/>) : (<FaChevronDown/>)} </div>
       </div>
 
-      {openDropDown && <div className="dropdown-body"  >
-            { (typeof content === "string") ?  content : (<ul>{content.map(element => (<li>{element}</li>))}</ul>)}
+      {openDropDown && <div className="dropdown-body"  >{ content } 
+            {/* { (typeof content === "string") ?  content : (<ul>{content.map(element => (<li>{element}</li>))}</ul>)} */}
+            {/* isOpened  &&  < div  className = "dropdownText" > { text } < / div > */}
     </div>}
     </div>
   );

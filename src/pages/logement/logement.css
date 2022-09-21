@@ -15,6 +15,8 @@
 .housing__content__heading .housing-details h2{
     font-weight: 500;
     font-size: 24px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 .housing__content__heading .housing-details__subtitle {
     margin-top: 0.5em;
@@ -24,7 +26,7 @@
     flex-wrap: wrap;
     list-style-type: none;
     padding-left: 0px;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 .housing-informations{
     display: block;
@@ -33,8 +35,14 @@
     align-items: center;
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
 }
+.housing__content__heading .housing-informations__stars{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
 @media screen and (max-width: 768px) {
     .housing__content__heading .housing-details h2{
         font-size: 18px;
@@ -97,6 +105,9 @@
     }
     .housing__content__heading .housing-informations__stars {
         order: 1;
+        margin-top: 0px;
+        margin-bottom: 0px;
+     
     }
     .housing__content__description {
         font-size: 12px;
