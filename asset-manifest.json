@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/p-11-kaza/static/css/main.b14a3906.css",
-    "main.js": "/p-11-kaza/static/js/main.28efe39f.js",
+    "main.js": "/p-11-kaza/static/js/main.0ac69533.js",
     "static/media/bannerHome.png": "/p-11-kaza/static/media/bannerHome.9b17a7d7d3fb82888a89.png",
     "static/media/bannerAbout.png": "/p-11-kaza/static/media/bannerAbout.fce6fc3e9ed27433e9b0.png",
     "static/media/logoblanc.svg": "/p-11-kaza/static/media/logoblanc.ee689fd9409d1b5a898b4247819d8a00.svg",
     "index.html": "/p-11-kaza/index.html",
     "static/media/sliderarrow.svg": "/p-11-kaza/static/media/sliderarrow.19918a1634b1441a25ae0b50e6b1f85b.svg",
     "main.b14a3906.css.map": "/p-11-kaza/static/css/main.b14a3906.css.map",
-    "main.28efe39f.js.map": "/p-11-kaza/static/js/main.28efe39f.js.map"
+    "main.0ac69533.js.map": "/p-11-kaza/static/js/main.0ac69533.js.map"
   },
   "entrypoints": [
     "static/css/main.b14a3906.css",
-    "static/js/main.28efe39f.js"
+    "static/js/main.0ac69533.js"
   ]
 }
