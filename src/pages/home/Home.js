@@ -9,7 +9,7 @@ function Home() {
   const [logements, setlogements] = useState([]);
 
   const getData = () => {
-    fetch("logements.json")
+    fetch("https://github.com/openclasro/p-11-kaza/blob/master/public/logements.json")
       .then(async function (response) {
         const logements1 = await response.json();
         setlogements(logements1);

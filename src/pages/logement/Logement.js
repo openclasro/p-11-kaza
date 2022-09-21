@@ -18,7 +18,7 @@ const Logement = () => {
     
     
     const getData = (id) => {
-        fetch("../logements.json"
+        fetch("https://github.com/openclasro/p-11-kaza/blob/master/public/logements.json"
         
         )
         .then(async function (response) {
