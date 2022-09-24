@@ -11,7 +11,7 @@ import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/p-11-kaza">
     <Header/>
     <Routes >
     <Route path="/" element={<Home />} />

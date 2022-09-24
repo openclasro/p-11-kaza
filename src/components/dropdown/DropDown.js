@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./dropdown.css";
 import {FaChevronUp,FaChevronDown } from 'react-icons/fa';
+
+
 const DropDown = ({title,content}) => {
 
   
@@ -14,8 +16,7 @@ const DropDown = ({title,content}) => {
       </div>
 
       {openDropDown && <div className="dropdown-body"  >{ content } 
-            {/* { (typeof content === "string") ?  content : (<ul>{content.map(element => (<li>{element}</li>))}</ul>)} */}
-            {/* isOpened  &&  < div  className = "dropdownText" > { text } < / div > */}
+         
     </div>}
     </div>
   );

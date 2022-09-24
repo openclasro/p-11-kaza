@@ -1,3 +1,9 @@
+body{
+    font-family: Montserrat;
+    
+}
+
+
 .housing {
     margin: auto;
 }
@@ -10,7 +16,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 2em auto 1em auto;
+    margin: 1em auto 1em auto;
 }
 .housing__content__heading .housing-details h2{
     font-weight: 500;
@@ -39,7 +45,7 @@
 }
 .housing__content__heading .housing-informations__stars{
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 
@@ -67,6 +73,7 @@
     width: 64px;
 }
 .housing__content__heading .housing-informations__host h5 {
+    font-family: Montserrat;
     text-align: right;
     width: 90px;
     font-weight: 500;
@@ -79,7 +86,7 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2em;
     justify-content: space-between;
-    margin: 1em auto;
+    /* margin: 1em auto; */
 }
 @media screen and (max-width: 768px) {
     .housing__content {
